@@ -1,15 +1,126 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700&display=swap');
 
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif; */
 
 /* Common Css */
 
-.bg-header{
+.bg-header {
     background-color: #FFF9F4;
 }
 
-.text-orange{
+h1 {
+    font-size: 5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h5 {
+    font-size: 24px;
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.text-orange {
     color: #FA804C;
 }
 
-.text-light-blue{
+.text-light-blue {
     color: #363958;
+}
+
+.btn-buy-now {
+    background-color: #3D4FF3;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-buy-now:hover {
+    background-color: #3D4FF3;
+    color: #fff;
+}
+
+.product-heading {
+    color: #363958;
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* Style Header */
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+
+}
+
+.navbar-brand img {
+    width: 35%;
+}
+
+header {
+    min-height: 100vh;
+}
+
+.header-content {
+    padding-top: 100px;
+}
+
+.price {
+    color: #FA804C;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.shopping-info {
+    margin-top: 30px;
+}
+
+.shopping-info img {
+    width: 100%;
+}
+
+.shopping-icon {
+    width: 15%;
+    margin-right: 30px;
+}
+
+/* /* Media Querys */
+
+@media only screen and (max-width:768px) {
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-left: 0px;
+    }
+
+
+    .navbar-brand img {
+        width: 60%;
+    }
+
+    .header-content {
+        padding-top: 20px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .header-img {
+        margin-bottom: 50px;
+    }
+
+    .heading-content {
+        text-align: center;
+    }
+
+    .shopping {
+        flex-direction: column-reverse;
+    }
 }
